@@ -86,8 +86,12 @@ WSGI_APPLICATION = 'restaurnt.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd6h41gjuloo7dh',
+        'HOST': 'ec2-3-211-37-117.compute-1.amazonaws.com',
+        'PORT': 5432,
+        'USER': 'mtstziyoonqczt',
+        'PASSWORD': 'cdafc8edebd878b9695c4202607bbc7240ff1c68386c5744c93593ce3158ad34',
     }
 }
 
